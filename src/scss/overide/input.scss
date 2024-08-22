@@ -1,0 +1,20 @@
+@import "./color.scss";
+
+.ui.form{
+    input{
+        background-color:$color-bg-white-01 !important;
+        border-color: $color-bg-white !important;
+        border-radius: 10px !important;
+        transition: background-color 1s ease !important; 
+        
+        &:hover{
+           background-color:$color-bg-white !important;
+           box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.5) !important;
+           -webkit-box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.5) !important;
+           -moz-box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.5) !important;
+           border-radius: 10px !important;
+        }
+
+    }
+
+}
